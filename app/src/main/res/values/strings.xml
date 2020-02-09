@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">instagram</string>
+    <string name="Edit_profile">edit_text</string>
+    <string name="sign_out">signout</string>
+    <string name="authfailed">failed to authentication </string>
+    <string name="authsuccess">success to authentication </string>
+    <string name="dbname_users">user </string>
+    <string name="dbname_user_act_settings">user_act_settings</string>
+
+
+</resources>

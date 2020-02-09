@@ -1,0 +1,24 @@
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="@color/white">
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/acts1"
+          android:text="Account settings"
+          android:textSize="35dp"
+          android:background="@drawable/wgb"/>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lvas"
+            android:layout_below="@+id/acts1"
+            >
+
+        </ListView>
+    </RelativeLayout>
+    </merge>

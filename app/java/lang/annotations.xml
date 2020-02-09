@@ -1,0 +1,8 @@
+<root>
+    <item name='java.lang.BootClassLoader'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+    <item name='java.lang.BootClassLoader java.lang.BootClassLoader getInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

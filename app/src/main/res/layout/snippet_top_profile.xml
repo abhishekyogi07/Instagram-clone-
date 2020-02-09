@@ -1,0 +1,38 @@
+<merge  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/wgb"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/profile_tool_bar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="abhishek yogi"
+                android:textColor="@color/black"
+                android:layout_marginStart="15dp"
+                android:layout_centerVertical="true"
+                android:textSize="20dp"
+                android:id="@+id/profilename"
+                ></TextView>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="20dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/cp"
+                android:src="@drawable/ic_mv"/>
+        </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+</merge>

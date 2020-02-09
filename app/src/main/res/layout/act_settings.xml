@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--whenever we requie the view pager we use the coordinator layout because it is needed to put the fragments-->
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <include layout="@layout/middle"/>
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relact1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relact2">
+        <include layout="@layout/actsettingtoolbar"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relact3"
+        android:layout_below="@+id/relact2"
+        android:layout_marginBottom="50dp">
+        <include layout="@layout/layout_center_act_set"/>
+
+    </RelativeLayout>
+    <include layout="@layout/navigation_bar"/>
+
+</RelativeLayout>
+
+
+    <!--this file is for the act..setting page and in this we wil include thee act setting s toolbar -->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
